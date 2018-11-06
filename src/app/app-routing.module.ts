@@ -6,11 +6,11 @@ const routes: Routes = [{
   path: '',
   component: LayoutComponent,
   children: [{
-    path: 'comicstore',
+    path: '/',
     pathMatch: 'full',
     redirectTo: 'comicstore/comics',
     }, {
-    path: 'comicstore/comics',
+    path: '/comics',
     loadChildren: './comic/comic.module#ComicModule'
   }]
 }];
