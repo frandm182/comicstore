@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { LayoutComponent } from './ui/containers/layout/layout.component';
 
 const routes: Routes = [{
-  path: 'comicstore/',
+  path: 'comicstore',
   component: LayoutComponent,
   children: [{
     path: '',
