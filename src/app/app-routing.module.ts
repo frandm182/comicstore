@@ -8,9 +8,9 @@ const routes: Routes = [{
   children: [{
     path: '',
     pathMatch: 'full',
-    redirectTo: 'comicstore/comics',
+    redirectTo: '/comics',
     }, {
-    path: 'comicstore/comics',
+    path: 'comics',
     loadChildren: './comic/comic.module#ComicModule'
   }]
 }];
