@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://dc-rebirth.now.sh/'
+  apiUrl: 'http://178.62.61.30:3005/rebirth'
 };

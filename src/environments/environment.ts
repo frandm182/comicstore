@@ -5,5 +5,5 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:3000/rebirth'
+  apiUrl: 'http://178.62.61.30:3005/rebirth'
 };

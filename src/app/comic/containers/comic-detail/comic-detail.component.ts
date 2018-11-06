@@ -6,7 +6,7 @@ import { ComicService } from '../../services/comic.service';
 @Component({
   selector: 'app-comic-detail',
   template: `
-   <app-comic [comic]="comic"></app-comic>
+   <app-comic class="detail" [comic]="comic"></app-comic>
   `,
   styleUrls: ['./comic-detail.component.scss']
 })
